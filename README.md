@@ -53,7 +53,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a PHP 5.4 application with MySQL and Cron support and the latest Drush.
 
-    rhc app create drupal8 php-5.4 mysql-5.5 cron https://cartreflect-claytondev.rhcloud.com/reflect?github=phase2/openshift-community-drush-master --from-code=git://github.com/phase2/drupal-quickstart.git
+    rhc app create drupal8 php-5.4 mysql-5.5 cron https://cartreflect-claytondev.rhcloud.com/reflect?github=phase2/openshift-community-drush-master --from-code=git://github.com/quackers8me/drupal-quickstart.git
 
 That's it, you can now checkout your application at:
     http://drupal8-$yournamespace.rhcloud.com
